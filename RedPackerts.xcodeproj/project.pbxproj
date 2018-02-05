@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		618E0C43202439A900AAC599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 618E0C42202439A900AAC599 /* AppDelegate.m */; };
+		618E0C46202439A900AAC599 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618E0C45202439A900AAC599 /* ViewController.m */; };
+		618E0C49202439A900AAC599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618E0C47202439A900AAC599 /* Main.storyboard */; };
+		618E0C4C202439A900AAC599 /* RedPackerts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 618E0C4A202439A900AAC599 /* RedPackerts.xcdatamodeld */; };
+		618E0C4E202439A900AAC599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618E0C4D202439A900AAC599 /* Assets.xcassets */; };
+		618E0C51202439AA00AAC599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618E0C4F202439AA00AAC599 /* LaunchScreen.storyboard */; };
+		618E0C54202439AA00AAC599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 618E0C53202439AA00AAC599 /* main.m */; };
+		618E0C5E202439AA00AAC599 /* RedPackertsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 618E0C5D202439AA00AAC599 /* RedPackertsTests.m */; };
+		618E0C69202439AB00AAC599 /* RedPackertsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 618E0C68202439AB00AAC599 /* RedPackertsUITests.m */; };
+		618E0C772024411E00AAC599 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 618E0C762024411E00AAC599 /* red.png */; };
+		618E0C7A2024419700AAC599 /* rp_yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 618E0C782024419600AAC599 /* rp_yes.png */; };
+		618E0C7B2024419700AAC599 /* rp_no.png in Resources */ = {isa = PBXBuildFile; fileRef = 618E0C792024419600AAC599 /* rp_no.png */; };
+		618E0C7F20244FAE00AAC599 /* RedPackertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 618E0C7E20244FAE00AAC599 /* RedPackertView.m */; };
+		618E0C832024549200AAC599 /* rp_yes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 618E0C802024549200AAC599 /* rp_yes@2x.png */; };
+		618E0C842024549200AAC599 /* rp_no@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 618E0C812024549200AAC599 /* rp_no@2x.png */; };
+		618E0C852024549200AAC599 /* red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 618E0C822024549200AAC599 /* red@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		618E0C5A202439AA00AAC599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 618E0C36202439A800AAC599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 618E0C3D202439A800AAC599;
+			remoteInfo = RedPackerts;
+		};
+		618E0C65202439AA00AAC599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 618E0C36202439A800AAC599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 618E0C3D202439A800AAC599;
+			remoteInfo = RedPackerts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		618E0C3E202439A800AAC599 /* RedPackerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedPackerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		618E0C41202439A900AAC599 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		618E0C42202439A900AAC599 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		618E0C44202439A900AAC599 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		618E0C45202439A900AAC599 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		618E0C48202439A900AAC599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		618E0C4B202439A900AAC599 /* RedPackerts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RedPackerts.xcdatamodel; sourceTree = "<group>"; };
+		618E0C4D202439A900AAC599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		618E0C50202439AA00AAC599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		618E0C52202439AA00AAC599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618E0C53202439AA00AAC599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		618E0C59202439AA00AAC599 /* RedPackertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedPackertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		618E0C5D202439AA00AAC599 /* RedPackertsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPackertsTests.m; sourceTree = "<group>"; };
+		618E0C5F202439AA00AAC599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618E0C64202439AA00AAC599 /* RedPackertsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedPackertsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		618E0C68202439AB00AAC599 /* RedPackertsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPackertsUITests.m; sourceTree = "<group>"; };
+		618E0C6A202439AB00AAC599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618E0C762024411E00AAC599 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		618E0C782024419600AAC599 /* rp_yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rp_yes.png; sourceTree = "<group>"; };
+		618E0C792024419600AAC599 /* rp_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rp_no.png; sourceTree = "<group>"; };
+		618E0C7D20244FAE00AAC599 /* RedPackertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedPackertView.h; sourceTree = "<group>"; };
+		618E0C7E20244FAE00AAC599 /* RedPackertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPackertView.m; sourceTree = "<group>"; };
+		618E0C802024549200AAC599 /* rp_yes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rp_yes@2x.png"; sourceTree = "<group>"; };
+		618E0C812024549200AAC599 /* rp_no@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rp_no@2x.png"; sourceTree = "<group>"; };
+		618E0C822024549200AAC599 /* red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		618E0C3B202439A800AAC599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618E0C56202439AA00AAC599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618E0C61202439AA00AAC599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		618E0C35202439A800AAC599 = {
+			isa = PBXGroup;
+			children = (
+				618E0C40202439A800AAC599 /* RedPackerts */,
+				618E0C5C202439AA00AAC599 /* RedPackertsTests */,
+				618E0C67202439AA00AAC599 /* RedPackertsUITests */,
+				618E0C3F202439A800AAC599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		618E0C3F202439A800AAC599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				618E0C3E202439A800AAC599 /* RedPackerts.app */,
+				618E0C59202439AA00AAC599 /* RedPackertsTests.xctest */,
+				618E0C64202439AA00AAC599 /* RedPackertsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		618E0C40202439A800AAC599 /* RedPackerts */ = {
+			isa = PBXGroup;
+			children = (
+				618E0C7C20244F8400AAC599 /* Red */,
+				618E0C792024419600AAC599 /* rp_no.png */,
+				618E0C782024419600AAC599 /* rp_yes.png */,
+				618E0C762024411E00AAC599 /* red.png */,
+				618E0C822024549200AAC599 /* red@2x.png */,
+				618E0C812024549200AAC599 /* rp_no@2x.png */,
+				618E0C802024549200AAC599 /* rp_yes@2x.png */,
+				618E0C41202439A900AAC599 /* AppDelegate.h */,
+				618E0C42202439A900AAC599 /* AppDelegate.m */,
+				618E0C44202439A900AAC599 /* ViewController.h */,
+				618E0C45202439A900AAC599 /* ViewController.m */,
+				618E0C47202439A900AAC599 /* Main.storyboard */,
+				618E0C4D202439A900AAC599 /* Assets.xcassets */,
+				618E0C4F202439AA00AAC599 /* LaunchScreen.storyboard */,
+				618E0C52202439AA00AAC599 /* Info.plist */,
+				618E0C53202439AA00AAC599 /* main.m */,
+				618E0C4A202439A900AAC599 /* RedPackerts.xcdatamodeld */,
+			);
+			path = RedPackerts;
+			sourceTree = "<group>";
+		};
+		618E0C5C202439AA00AAC599 /* RedPackertsTests */ = {
+			isa = PBXGroup;
+			children = (
+				618E0C5D202439AA00AAC599 /* RedPackertsTests.m */,
+				618E0C5F202439AA00AAC599 /* Info.plist */,
+			);
+			path = RedPackertsTests;
+			sourceTree = "<group>";
+		};
+		618E0C67202439AA00AAC599 /* RedPackertsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				618E0C68202439AB00AAC599 /* RedPackertsUITests.m */,
+				618E0C6A202439AB00AAC599 /* Info.plist */,
+			);
+			path = RedPackertsUITests;
+			sourceTree = "<group>";
+		};
+		618E0C7C20244F8400AAC599 /* Red */ = {
+			isa = PBXGroup;
+			children = (
+				618E0C7D20244FAE00AAC599 /* RedPackertView.h */,
+				618E0C7E20244FAE00AAC599 /* RedPackertView.m */,
+			);
+			path = Red;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		618E0C3D202439A800AAC599 /* RedPackerts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618E0C6D202439AB00AAC599 /* Build configuration list for PBXNativeTarget "RedPackerts" */;
+			buildPhases = (
+				618E0C3A202439A800AAC599 /* Sources */,
+				618E0C3B202439A800AAC599 /* Frameworks */,
+				618E0C3C202439A800AAC599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedPackerts;
+			productName = RedPackerts;
+			productReference = 618E0C3E202439A800AAC599 /* RedPackerts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		618E0C58202439AA00AAC599 /* RedPackertsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618E0C70202439AB00AAC599 /* Build configuration list for PBXNativeTarget "RedPackertsTests" */;
+			buildPhases = (
+				618E0C55202439AA00AAC599 /* Sources */,
+				618E0C56202439AA00AAC599 /* Frameworks */,
+				618E0C57202439AA00AAC599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				618E0C5B202439AA00AAC599 /* PBXTargetDependency */,
+			);
+			name = RedPackertsTests;
+			productName = RedPackertsTests;
+			productReference = 618E0C59202439AA00AAC599 /* RedPackertsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		618E0C63202439AA00AAC599 /* RedPackertsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618E0C73202439AB00AAC599 /* Build configuration list for PBXNativeTarget "RedPackertsUITests" */;
+			buildPhases = (
+				618E0C60202439AA00AAC599 /* Sources */,
+				618E0C61202439AA00AAC599 /* Frameworks */,
+				618E0C62202439AA00AAC599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				618E0C66202439AA00AAC599 /* PBXTargetDependency */,
+			);
+			name = RedPackertsUITests;
+			productName = RedPackertsUITests;
+			productReference = 618E0C64202439AA00AAC599 /* RedPackertsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		618E0C36202439A800AAC599 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = dt;
+				TargetAttributes = {
+					618E0C3D202439A800AAC599 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					618E0C58202439AA00AAC599 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 618E0C3D202439A800AAC599;
+					};
+					618E0C63202439AA00AAC599 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 618E0C3D202439A800AAC599;
+					};
+				};
+			};
+			buildConfigurationList = 618E0C39202439A800AAC599 /* Build configuration list for PBXProject "RedPackerts" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 618E0C35202439A800AAC599;
+			productRefGroup = 618E0C3F202439A800AAC599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				618E0C3D202439A800AAC599 /* RedPackerts */,
+				618E0C58202439AA00AAC599 /* RedPackertsTests */,
+				618E0C63202439AA00AAC599 /* RedPackertsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		618E0C3C202439A800AAC599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618E0C7B2024419700AAC599 /* rp_no.png in Resources */,
+				618E0C7A2024419700AAC599 /* rp_yes.png in Resources */,
+				618E0C51202439AA00AAC599 /* LaunchScreen.storyboard in Resources */,
+				618E0C772024411E00AAC599 /* red.png in Resources */,
+				618E0C852024549200AAC599 /* red@2x.png in Resources */,
+				618E0C4E202439A900AAC599 /* Assets.xcassets in Resources */,
+				618E0C832024549200AAC599 /* rp_yes@2x.png in Resources */,
+				618E0C49202439A900AAC599 /* Main.storyboard in Resources */,
+				618E0C842024549200AAC599 /* rp_no@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618E0C57202439AA00AAC599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618E0C62202439AA00AAC599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		618E0C3A202439A800AAC599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618E0C46202439A900AAC599 /* ViewController.m in Sources */,
+				618E0C4C202439A900AAC599 /* RedPackerts.xcdatamodeld in Sources */,
+				618E0C7F20244FAE00AAC599 /* RedPackertView.m in Sources */,
+				618E0C54202439AA00AAC599 /* main.m in Sources */,
+				618E0C43202439A900AAC599 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618E0C55202439AA00AAC599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618E0C5E202439AA00AAC599 /* RedPackertsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618E0C60202439AA00AAC599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618E0C69202439AB00AAC599 /* RedPackertsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		618E0C5B202439AA00AAC599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 618E0C3D202439A800AAC599 /* RedPackerts */;
+			targetProxy = 618E0C5A202439AA00AAC599 /* PBXContainerItemProxy */;
+		};
+		618E0C66202439AA00AAC599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 618E0C3D202439A800AAC599 /* RedPackerts */;
+			targetProxy = 618E0C65202439AA00AAC599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		618E0C47202439A900AAC599 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618E0C48202439A900AAC599 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		618E0C4F202439AA00AAC599 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618E0C50202439AA00AAC599 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		618E0C6B202439AB00AAC599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		618E0C6C202439AB00AAC599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		618E0C6E202439AB00AAC599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97NLNZYDFW;
+				INFOPLIST_FILE = RedPackerts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TianZhiDao.RedPackerts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		618E0C6F202439AB00AAC599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97NLNZYDFW;
+				INFOPLIST_FILE = RedPackerts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TianZhiDao.RedPackerts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		618E0C71202439AB00AAC599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedPackertsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TianZhiDao.RedPackertsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedPackerts.app/RedPackerts";
+			};
+			name = Debug;
+		};
+		618E0C72202439AB00AAC599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedPackertsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TianZhiDao.RedPackertsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedPackerts.app/RedPackerts";
+			};
+			name = Release;
+		};
+		618E0C74202439AB00AAC599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedPackertsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TianZhiDao.RedPackertsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedPackerts;
+			};
+			name = Debug;
+		};
+		618E0C75202439AB00AAC599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedPackertsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TianZhiDao.RedPackertsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedPackerts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		618E0C39202439A800AAC599 /* Build configuration list for PBXProject "RedPackerts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618E0C6B202439AB00AAC599 /* Debug */,
+				618E0C6C202439AB00AAC599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618E0C6D202439AB00AAC599 /* Build configuration list for PBXNativeTarget "RedPackerts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618E0C6E202439AB00AAC599 /* Debug */,
+				618E0C6F202439AB00AAC599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618E0C70202439AB00AAC599 /* Build configuration list for PBXNativeTarget "RedPackertsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618E0C71202439AB00AAC599 /* Debug */,
+				618E0C72202439AB00AAC599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618E0C73202439AB00AAC599 /* Build configuration list for PBXNativeTarget "RedPackertsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618E0C74202439AB00AAC599 /* Debug */,
+				618E0C75202439AB00AAC599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		618E0C4A202439A900AAC599 /* RedPackerts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				618E0C4B202439A900AAC599 /* RedPackerts.xcdatamodel */,
+			);
+			currentVersion = 618E0C4B202439A900AAC599 /* RedPackerts.xcdatamodel */;
+			path = RedPackerts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 618E0C36202439A800AAC599 /* Project object */;
+}
